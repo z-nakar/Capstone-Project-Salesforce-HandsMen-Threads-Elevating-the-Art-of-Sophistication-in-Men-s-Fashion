@@ -5,7 +5,7 @@
 **Project Title:** HandsMen Threads - Men's Fashion E-Commerce Platform  
 **Platform:** Salesforce  
 **Date:** November 2025  
-**Student:** M.J. Tuplano
+**Student:** Nakar, Zairel P.
 
 ---
 
@@ -612,10 +612,10 @@ This project provided hands-on experience with:
 
 ## Contact Information
 
-**Student:** MJ Tuplano  
+**Student:** Nakar, Zairel P. 
 **Project:** HandsMen Threads Capstone  
 **Platform:** Salesforce  
-**Submission Date:** November 28, 2025
+**Submission Date:** December 14, 2025
 
 ---
 
