@@ -52,6 +52,7 @@ HandsMen Threads is a sophisticated men's fashion e-commerce platform built on S
 
 ---
 
+
 ## System Architecture
 
 The HandsMen Threads application is built on a custom Salesforce architecture consisting of:
