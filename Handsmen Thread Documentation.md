@@ -81,16 +81,12 @@ Customer Creation → Product Management → Inventory Tracking → Order Proces
 - Email validation and error handling
 - Customer profile management
 
-![Create Account](SCREENSHOTS/Create%20Account.png)
-
-![Email Validation Error](SCREENSHOTS/Email%20Validation%20Error.png)
 
 ### 2. Product Catalog
 - Comprehensive product creation system
 - Product details and specifications
 - Product categorization
 
-![Product Creation](SCREENSHOTS/Handsmen%20Thread%20Product%20Creation.png)
 
 ### 3. Inventory Management
 - Real-time inventory tracking
@@ -98,9 +94,6 @@ Customer Creation → Product Management → Inventory Tracking → Order Proces
 - Automated low stock alerts
 - Batch job for scheduled inventory checks
 
-![Inventory Creation](SCREENSHOTS/Handsmen%20Thread%20Inventory%20Creation.png)
-
-![Inventory Batch Job](SCREENSHOTS/InventoryBatchJob.png)
 
 ### 4. Order Processing
 - Streamlined order creation interface
@@ -108,20 +101,12 @@ Customer Creation → Product Management → Inventory Tracking → Order Proces
 - Stock deduction upon order placement
 - Order confirmation system
 
-![Order Creation](SCREENSHOTS/Handsmen%20Thread%20Order%20Creation.png)
-
-![Order Calculation Trigger](SCREENSHOTS/Order%20Calculation%20Trigger.png)
-
-![Stock Deduction Trigger](SCREENSHOTS/Stock%20Deduction%20Trigger.png)
 
 ### 5. Customer Communications
 - Order confirmation emails
 - Low stock alert notifications
 - Loyalty program communications
 
-![Order Confirmation Email](SCREENSHOTS/Order%20Confirmation%20Email.png)
-
-![Low Stock Alert Email](SCREENSHOTS/Low%20Stock%20Alert%20Email.png)
 
 ---
 
@@ -142,7 +127,6 @@ Customer Creation → Product Management → Inventory Tracking → Order Proces
 - Duplicate email prevention
 - Required field enforcement
 
-![Customer Creation Form](SCREENSHOTS/Handsmen%20Thread%20Customer%20Creation.png)
 
 ---
 
@@ -156,7 +140,6 @@ Customer Creation → Product Management → Inventory Tracking → Order Proces
 - Price
 - SKU/Product Code
 
-![Product Object Form](SCREENSHOTS/Handsmen%20Thread%20Product%20Creation.png)
 
 ---
 
@@ -175,8 +158,6 @@ Customer Creation → Product Management → Inventory Tracking → Order Proces
 - Updates automatically when orders are placed
 - Monitored by batch job for proactive alerts
 
-![Inventory Object Form](SCREENSHOTS/Handsmen%20Thread%20Inventory%20Creation.png)
-
 ---
 
 ### Order Object
@@ -194,7 +175,6 @@ Customer Creation → Product Management → Inventory Tracking → Order Proces
 **Calculated Fields:**
 - Order Total = Quantity × Unit Price (automated via trigger)
 
-![Order Object Form](SCREENSHOTS/Handsmen%20Thread%20Order%20Creation.png)
 
 ---
 
@@ -214,7 +194,6 @@ Customer Creation → Product Management → Inventory Tracking → Order Proces
 - Multiplies by quantity ordered
 - Updates Order Total field
 
-![Order Calculation Trigger](SCREENSHOTS/Order%20Calculation%20Trigger.png)
 
 ---
 
@@ -233,8 +212,6 @@ Customer Creation → Product Management → Inventory Tracking → Order Proces
 
 **Handler Class:** `OrderTriggerHandler`
 
-![Stock Deduction Trigger](SCREENSHOTS/Stock%20Deduction%20Trigger.png)
-
 ---
 
 ### Batch Jobs
@@ -251,7 +228,6 @@ Customer Creation → Product Management → Inventory Tracking → Order Proces
 4. Trigger low stock alert flow
 5. Send notification emails
 
-![Inventory Batch Job](SCREENSHOTS/InventoryBatchJob.png)
 
 ---
 
@@ -266,7 +242,6 @@ Customer Creation → Product Management → Inventory Tracking → Order Proces
 3. Populate email template
 4. Send order confirmation email
 
-![Order Confirmation Flow](SCREENSHOTS/Order%20Confirmation%20Flow.png)
 
 ---
 
@@ -279,7 +254,7 @@ Customer Creation → Product Management → Inventory Tracking → Order Proces
 3. Notify inventory manager
 4. Send email alert with product information
 
-![Low Stock Alert Flow](SCREENSHOTS/Low%20Stock%20Alert%20Flow.png)
+
 
 ---
 
@@ -292,7 +267,6 @@ Customer Creation → Product Management → Inventory Tracking → Order Proces
 3. Trigger reward notifications
 4. Send loyalty program emails
 
-![Loyalty Program Flow](SCREENSHOTS/Loyalty%20Program%20Flow.png)
 
 ---
 
@@ -312,7 +286,6 @@ The application uses custom email templates for professional customer communicat
 - Expected delivery information
 - Thank you message
 
-![Order Confirmation Email](SCREENSHOTS/Order%20Confirmation%20Email.png)
 
 ---
 
@@ -325,10 +298,6 @@ The application uses custom email templates for professional customer communicat
 - Reorder threshold
 - Recommended action
 
-![Low Stock Alert Email](SCREENSHOTS/Low%20Stock%20Alert%20Email.png)
-
-![Low Stock Alert Email Template](SCREENSHOTS/Low%20Stock%20Alert%20Email%20Template.png)
-
 ---
 
 #### 3. Loyalty Program Email
@@ -340,7 +309,6 @@ The application uses custom email templates for professional customer communicat
 - Special offers
 - Call to action
 
-![Loyalty Program Email Template](SCREENSHOTS/Loyalty%20Program%20Email%20Template.png)
 
 ---
 
@@ -361,9 +329,6 @@ The system implements robust email validation to ensure data integrity:
 - Prevents invalid data entry
 - Provides guidance for correction
 
-![Email Validation Error](SCREENSHOTS/Email%20Validation%20Error.png)
-
-![Email Error](SCREENSHOTS/Email%20Error.png)
 
 ---
 
@@ -400,7 +365,7 @@ Trigger → Handler Class → Business Logic
 
 The HandsMen Threads application provides a clean, intuitive interface for managing all aspects of the men's fashion e-commerce business.
 
-![HandsMen Threads Application](SCREENSHOTS/Handsmen%20Threads%20Application.png)
+
 
 ### Key UI Features
 
